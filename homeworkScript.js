@@ -1,8 +1,8 @@
-function homework(defaultParameter) {
+function task(defaultParameter) {
 console.log(defaultParameter)
 }
 
-homework("First - Second - Third =")  
+task("First - Second - Third =")  
 
 function subNumbers(first, second, third) {
 
@@ -10,4 +10,4 @@ let sub = first - second - third
 return sub  
 }
 
-homework(subNumbers(30, 20, 10))
+task(subNumbers(30, 20, 10))
