@@ -1,13 +1,12 @@
 function task(defaultParameter) {
-console.log(defaultParameter)
+  console.log(defaultParameter);
 }
 
-task("First - Second - Third =")  
+task("First - Second - Third =");
 
 function subNumbers(first, second, third) {
-
-let sub = first - second - third 
-return sub  
+  let sub = first - second - third;
+  return sub;
 }
 
-task(subNumbers(30, 20, 10))
+task(subNumbers(30, 20, 10));
